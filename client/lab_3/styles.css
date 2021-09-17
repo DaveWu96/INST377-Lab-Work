@@ -46,5 +46,6 @@
   width: 900px;
   height: 300px;
   display: flex;
+  justify-content:space-between;
 }
-  justify-content: space-between;
+  
