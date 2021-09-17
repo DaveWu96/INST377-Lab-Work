@@ -7,7 +7,7 @@
 .lab3{
   color: rgb(7, 7, 7);
   background-color: #6af181;  /* green */
-  padding: 20px 0;
+  padding: 10px 0;
   display: flex;
   justify-content: start;
 }
