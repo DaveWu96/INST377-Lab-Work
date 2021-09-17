@@ -18,3 +18,11 @@
     display: flex;
     justify-content: space-around;
   }
+  .links {
+    border: 1px solid #fff;  /* For debugging */
+    display: flex;
+    justify-content: flex-end;
+  }
+  .login {
+    margin-left: 20px;
+  }
