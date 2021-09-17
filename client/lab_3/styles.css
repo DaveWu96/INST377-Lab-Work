@@ -1,66 +1,16 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .menu-container {
-    color: #fff;
-    background-color: #5995DA;  /* Blue */
-    padding: 20px 0;
-      /* ... */
-    display: flex;
-  }
-  
-  .menu {
-    border: 1px solid #fff;  /* For debugging */
-    width: 900px;
-    display: flex;
-    justify-content: space-around;
-  }
-  .links {
-    border: 1px solid #fff;  /* For debugging */
-    display: flex;
-    justify-content: flex-end;
-  }
-  .login {
-    margin-left: 20px;
-  }
-  .header-container {
-    color: #5995DA;
-    background-color: #D6E9FE;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .header {
-    width: 900px;
-    height: 300px;
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;  /* Add this */
-  }
-.social,
-.logo,
-.subscribe {
-  border: 1px solid #5995DA;
-}
-.photo-grid-container {
-  display: flex;
-  justify-content: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.photo-grid {
+.menu-container {
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  padding: 20px 0;
+}
+
+.menu {
+  border: 1px solid #fff;  /* For debugging */
   width: 900px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: row-reverse;  /* <--- Really freaking cool! */
-  align-items: center;
-}
-
-.photo-grid-item {
-  border: 1px solid #fff;
-  width: 300px;
-  height: 300px;
 }
