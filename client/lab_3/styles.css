@@ -55,7 +55,8 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row-reverse;  /* <--- Really freaking cool! */
+  align-items: center;
 }
 
 .photo-grid-item {
