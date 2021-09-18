@@ -6,7 +6,7 @@
 
 .lab3{
   color: rgb(7, 7, 7);
-  background-color: #6af181;  /* green */
+  background-color: #196958;  /* green */
   padding: 10px 0;
   display: flex;
   justify-content: start;
@@ -48,4 +48,10 @@
   display: flex;
   justify-content:space-between;
 }
+.projectlinke{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
   
