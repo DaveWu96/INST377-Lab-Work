@@ -52,12 +52,12 @@
 .projectlinke{
   display: flex;
   justify-content: flex-start;
-  align-items: flex-end;
+  align-items: baseline;
 }
 .mygithub{
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: baseline;
 }
 .photo-grid-container {
   display: flex;
