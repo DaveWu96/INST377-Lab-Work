@@ -24,12 +24,14 @@
   border: 1px solid #fff;  /* For debugging */
   width: 900px;
   display: flex;
-  justify-self: flex-start;
+  align-items: left;
+  justify-content: flex-start ;
 }
 .links {
   border: 1px solid #fff;  /* For debugging */
   display: flex;
-  justify-self: flex-end;
+  align-items: right;
+  justify-content: flex-end;
   
 }
 /*
