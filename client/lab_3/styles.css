@@ -51,13 +51,13 @@
 }
 .projectlinke{
   display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
+  align-self: flex-end;
+  margin-bottom: 20px;
 }
 .mygithub{
   display: flex;
-  justify-content: flex-end;
-  align-items: baseline;
+  align-self: flex-end;
+  margin-bottom: 20px;
 }
 .photo-grid-container {
   display: flex;
@@ -70,14 +70,8 @@
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  flex-direction: row-reverse;  /* <--- Really freaking cool! */
+  flex-direction: row;  
   align-items: center;
-}
-
-.photo-grid-item {
-  border: 1px solid #fff;
-  width: 300px;
-  height: 300px;
 }
 .first-item {
   order: 1;
@@ -86,6 +80,12 @@
 .last-item {
   order: -1;
 }
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+}
+
 .social,
 .subscribe {
   align-self: flex-end;
