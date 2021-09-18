@@ -29,7 +29,7 @@
 .links {
   border: 1px solid #fff;  /* For debugging */
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
 }
 
 .login {
