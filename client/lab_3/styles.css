@@ -21,16 +21,15 @@
 }
 
 .menu {
-  border: 1px solid #fff;  /* For debugging */
+  border: 1px solid #fff;
   width: 900px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 .links {
   border: 1px solid #fff;  /* For debugging */
   display: flex;
   justify-content: flex-end;
-  
 }
 
 .login {
