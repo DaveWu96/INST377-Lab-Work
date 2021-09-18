@@ -67,6 +67,7 @@
 .photo-grid {
   width: 900px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: row-reverse;  /* <--- Really freaking cool! */
