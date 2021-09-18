@@ -24,7 +24,6 @@
   border: 1px solid #fff;  /* For debugging */
   width: 900px;
   display: flex;
-  align-items: left;
   justify-content: flex-start;
 }
 .links {
