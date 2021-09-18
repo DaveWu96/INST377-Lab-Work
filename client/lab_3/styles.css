@@ -3,7 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+html{font-size:62.5%;}
+body {font:normal 100% Arial,sans-serif;font-size:14px; font-size:1.4rem; }
+.left{ width:30%; float:left}
+.right{ width:70%; float:right;}
+}
 .lab3{
   color: rgb(7, 7, 7);
   background-color: #0f977a;  /* green */
@@ -104,4 +110,3 @@
   flex: initial;
   width: 300px;
 }
-
