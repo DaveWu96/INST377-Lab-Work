@@ -67,11 +67,13 @@
 .photo-grid {
   width: 900px;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: row;  
-  align-items: center;
+  justify-content: flex-start;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
 }
 .first-item {
   order: 1;
@@ -79,10 +81,5 @@
 
 .last-item {
   order: -1;
-}
-.photo-grid-item {
-  border: 1px solid #fff;
-  width: 300px;
-  height: 300px;
 }
 
