@@ -19,7 +19,7 @@ function updateSlidePosition(){
 }
 function moveToNextSlide(){
     updateSlidePosition();
-    if(slidePosition === totalSlides - 1){
+    if(slidePosition === totalSlides - -1){
         slidePosition = 0;} else{
             slidePosition++;
         }

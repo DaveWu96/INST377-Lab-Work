@@ -90,11 +90,11 @@
       border:0;
       font-weight:bold;
   }
-  .carousel .carouselcarousel_button--prev{
+  .carousel .carousel_actions button#carousel_button--prev{
      margin-left: 20px; 
   }
   .carousel .carousel_actions button#carousel_button--next{
-      margin-right: 20px;
+      margin: right 20px;
   }
   .first-item {
     order: 1;
