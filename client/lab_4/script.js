@@ -10,28 +10,32 @@ document.
 document.
     getElementById('carousel_button--prev')
     .addEventListener('click', function(){
-        moveToPrevtSlide()
+        moveToPrevSlide()
     });
 
 function updateSlidePosition(){
     for (let slide of slides){
-        slide.classList.remove('carousel_itme--visible');
-        slide.classList.add('carousel_itme--hidden');
+        slide.classList.remove('carousel_item--visible');
+        slide.classList.add('carousel_item--hidden');
     }
 
     slides[slidePosition].classList.add('carousel_item--visible')
 }
 function moveToNextSlide(){
-    updateSlidePosition();
     if(slidePosition === totalSlides - 1){
-        slidePosition = 0;} else{
-            slidePosition++;
-        }
+        slidePosition = 0;
+    } else {
+        slidePosition++;
+    }
+
+    updateSlidePosition();
 }
 function moveToPrevSlide(){
+    if(slidePosition === 0){
+        slidePosition = totalSlides - 1;
+    } else {
+        slidePosition--;
+    }
+
     updateSlidePosition();
-    if(slidePosition === totalSlides - 1){
-        slidePosition = 0;} else{
-            slidePosition--;
-        }
 }

@@ -66,6 +66,9 @@
     margin-bottom: 20px;
   }
   .carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -78,13 +81,12 @@
   .carousel .carousel_item--visible{
       display: block;
   }
-  .carousel_actions{
-    display: flex;
+  /*.carousel_actions{
     width: 100%;
     justify-content: space-evenly;
     top: 70%;
     position: absolute;
-  }
+  }*/
   .carousel .carousel_actions button{
       border-radius: 50px;
       border:0;
