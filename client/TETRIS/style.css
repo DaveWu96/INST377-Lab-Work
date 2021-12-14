@@ -1,13 +1,29 @@
-.grid {
-  width: 200px;
-  height: 400px;
-  display: flex;
-  flex-wrap: wrap;
-  background-color: yellow;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.grid div{
-  height: 20px;
-  width: 20px;
-  background-color: red;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’,
+    ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
+  background-color: pink;
+
+  height: 100vh;
+}
+
+/* Page Layout */
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  display: flex;
+}
+.container {
+  max-width: 960px;
+  margin-top: 25px;
 }
