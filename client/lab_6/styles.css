@@ -1,0 +1,37 @@
+.inputline {
+  display: flex;
+  margin: auto;
+  width: 400px;
+}
+.inputline input {
+  flex-grow: 1;
+  width: 100%;
+  font-size: 18px;
+  line-height: 40px;
+  height: 40px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+.inputline a {
+  background-color: #f4f4f4;
+  border: 1px solid #333;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 4px;
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 10px;
+}
+ul,
+li {
+  list-style: none;
+}
+li {
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  line-height: 30px;
+  padding: 10px 0;
+}
