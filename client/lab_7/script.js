@@ -1,16 +1,16 @@
-const list = []; /*存储数据列表 */
+const list = []; 
 const url = 'https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json';
 let mymap = "";
 let layer = [];
 
 async function windowActions() {
-    await fetch(url).then(response => response.json()) //解析为可读数据
+    await fetch(url).then(response => response.json()) 
         .then(data => {
             list.push(...data)
             showlist(data)
             // console.log(list)
-        }) //执行结果是 resolve就调用then方法
-        .catch(err => console.log("Oh, error", err)) //执行结果是 reject就调用catch方法
+        }) 
+        .catch(err => console.log("Oh, error", err)) 
 }
 window.onload = function () {
     windowActions();
@@ -64,7 +64,7 @@ function mapInit() {
     })
 }
 function showmap(data) {
-    /* 移除所有标记点后重新绘制 */
+    
     if (mymap != "") {
         layer.forEach((ele) => {
             mymap.removeLayer(ele)
@@ -93,10 +93,10 @@ function throttle(fn, delay) {
     let valid = true
     return function () {
         if (!valid) {
-            //休息时间 暂不接客
+            
             return false
         }
-        // 工作时间，执行函数并且在间隔期内把状态位设为无效
+        
         valid = false
         setTimeout(() => {
             fn()

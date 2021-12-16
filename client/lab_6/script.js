@@ -1,14 +1,14 @@
 const list = [];
 const url = 'https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json';
 async function windowActions() {
-    await fetch(url).then(response => response.json()) //解析为可读数据
+    await fetch(url).then(response => response.json()) 
         .then(data => {
 
             list.push(...data)
             showlist(data)
             console.log(list)
-        }) //执行结果是 resolve就调用then方法
-        .catch(err => console.log("Oh, error", err)) //执行结果是 reject就调用catch方法
+        }) 
+        .catch(err => console.log("Oh, error", err)) 
 }
 window.onload = windowActions;
 const searchInput = document.querySelector('input');
@@ -19,7 +19,7 @@ searchInput.addEventListener('keyup', function (evt) {
 
 function displayMatches(event) {
     console.log(event.target.value)
-    // 获得下拉框选中值
+    
     let myselect = document.getElementById("type");
     let index = myselect.selectedIndex;
     let txt = myselect.options[index].value;
